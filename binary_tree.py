@@ -33,3 +33,10 @@ class Node:
         return the size of the tree, ie., the number of nodes
         """
         return -1
+
+    def contains(self, other_value):
+        """
+        Search the tree and see if the other_value is contained
+        as a value in any of the nodes
+        """
+        return False
