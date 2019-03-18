@@ -5,7 +5,7 @@ in Python
 
 class Node:
     """
-    Binary Tree implementationself.  This binary Tree
+    Binary Tree implementation.  This binary Tree
     contains left, right, value.  left is a reference
     to another Node (lesser value), right is a reference
     to another Node (of greater value), and value is the
