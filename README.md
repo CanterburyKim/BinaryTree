@@ -1,1 +1,3 @@
-"# BinaryTree" 
+"# BinaryTree"
+
+Binary Tree implementation
