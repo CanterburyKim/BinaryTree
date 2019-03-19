@@ -18,20 +18,29 @@ class Node:
 
     def add(self, new_value):
         """
-        add a new node to the tree
+        add a new node to the tree.
         """
         pass
+        # TODO: find the correct insertion place
+
+        # TODO: allocate the new Node and assign the value
+
 
     def print(self):
         """
-        print the entire tree
+        print the entire tree in ascending order
         """
+
+        # TODO: traverse the binary tree and print from smallest to largest
         pass
 
     def size(self):
         """
         return the size of the tree, ie., the number of nodes
         """
+
+        # TODO: count all the nodes
+
         return -1
 
     def contains(self, other_value):
@@ -39,4 +48,7 @@ class Node:
         Search the tree and see if the other_value is contained
         as a value in any of the nodes
         """
+
+        # TODO: search thru the tree and try to match against other_value
+        
         return False
