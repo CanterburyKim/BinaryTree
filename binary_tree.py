@@ -12,6 +12,10 @@ class Node:
     numerical value associated with this Node
     """
     def __init__(self, root_node_value):
+        """
+        Init the Node by setting left and right to None
+        and by setting the value of the Node.
+        """
         self.left = None
         self.right = None
         self.value = root_node_value
@@ -32,6 +36,7 @@ class Node:
         """
 
         # TODO: traverse the binary tree and print from smallest to largest
+
         pass
 
     def size(self):
@@ -50,5 +55,5 @@ class Node:
         """
 
         # TODO: search thru the tree and try to match against other_value
-        
+
         return False

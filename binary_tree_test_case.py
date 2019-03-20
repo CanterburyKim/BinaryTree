@@ -9,7 +9,7 @@ class TestBinaryTree(unittest.TestCase):
         """
         Just testing the insert
         """
-        numbers = [10, 7, 15, 12, 7, 1, 3, 33, 35]
+        numbers = [10, 7, 15, 12, 1, 3, 33, 35]
         my_tree = Node(numbers[0])
 
         for number in numbers[1:]:
@@ -18,7 +18,7 @@ class TestBinaryTree(unittest.TestCase):
     def test_do_tree_count(self):
         """
         """
-        numbers = [10, 7, 15, 12, 7, 1, 3, 33, 35]
+        numbers = [10, 7, 15, 12, 1, 3, 33, 35]
         my_tree = Node(numbers[0])
 
         for number in numbers[1:]:
@@ -31,7 +31,7 @@ class TestBinaryTree(unittest.TestCase):
     def test_do_tree_print(self):
         """
         """
-        numbers = [10, 7, 15, 12, 7, 1, 3, 33, 35]
+        numbers = [10, 7, 15, 12, 1, 3, 33, 35]
         my_tree = Node(numbers[0])
 
         for number in numbers[1:]:
@@ -41,7 +41,7 @@ class TestBinaryTree(unittest.TestCase):
     def test_do_tree_contains(self):
         """
         """
-        numbers = [10, 7, 15, 12, 7, 1, 3, 33, 35]
+        numbers = [10, 7, 15, 12, 1, 3, 33, 35]
         my_tree = Node(numbers[0])
 
         for number in numbers[1:]:
